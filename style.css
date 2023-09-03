@@ -1,0 +1,154 @@
+body{
+    /* background-image: url("bg.jpg"); */
+    background-size: cover;
+    height: 300vh;
+    
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg.jpg);
+   
+   
+}
+i{
+    padding-top:  15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: lightgreen;
+}
+
+span {
+    
+    color:white;
+}
+
+
+nav{
+    margin-top: 50px;
+    opacity: 0.8;
+    display: flex;
+    justify-items: center;
+    color: white;
+    
+    
+}
+nav, li:hover{
+    color: lightgreen;
+}
+
+
+a,.nav-items{
+    margin-left: 20px;
+}
+.nav-button{
+    float: right;
+    border: 2px solid green;
+    color: white;
+    background-color: transparent;
+    border-radius: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.nav-button:hover{
+    background-color: lightgreen;
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px;
+
+   
+    background-color:rgb(20, 19, 19);
+   
+     
+}
+.dropdown-item{
+    
+    
+color: white;
+text-decoration:none;
+
+}
+.dropdown-item:hover{
+    color: lightgreen;
+    text-decoration: none;   
+}
+
+
+.head {
+    color: white;
+    font-size: 60px;
+    margin-top: 180px;
+    /* margin-left: 90px; */
+    
+    /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpeg.jpeg);
+    background-repeat: no-repeat;
+    */
+   
+}
+.second {
+  
+    color: white;
+    /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpeg.jpeg);
+    background-repeat: no-repeat;
+     */
+   
+}
+.sec-h1{
+    margin-left: 90px;
+    margin-top: 60px;
+    font-style: inherit;
+    color: white;
+}
+.sec-h5{
+    margin-left: 90px;
+    font-style: italic;
+
+}
+
+
+
+.restaurant-pic{
+    height: 500px;
+    width: 500px;
+    background-image: url('restaurant.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 90px;
+    margin-top: 40px;
+    
+}
+
+.head h1:hover{
+    transition: 2s;
+    
+    font-size:60px ;
+}
+.head-button{
+    border: 2px solid white;
+    color:white;
+    background-color: transparent;
+    border-radius: 60px;
+    margin-left: 90px;
+    
+
+}
+.head-button:hover{
+    
+    background-color: lightgreen;
+    
+}
+.why{
+    
+    background-color: rgb(46, 39, 39);
+   
+}
+
+.why-p{
+    color: white;
+}
+.why:hover{
+    background-color: rgb(6, 63, 6);
+    stroke-linecap: square;
+   
+}
